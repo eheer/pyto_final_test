@@ -1,0 +1,60 @@
+
+
+.fondo_negro{
+    background-color: $fondo_negro;
+    color:$fuente_bco;   
+ }
+
+ .espaciado{
+    margin: 0px;
+    margin-bottom: 0px;
+}
+
+.gdt_cbza{
+    background: rgb(6,10,10);
+    background: linear-gradient(0deg, rgba(6,10,10,1) 0%, rgba(240,16,16,1) 100%);
+ }
+
+ 
+ .gdt_foot{
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(231,6,6,1) 35%);
+}
+ 
+.centrar_linea{
+    text-align: center;    
+   }
+
+.fuente_negra{
+    color:$fuente_negro;
+}
+
+.texto_blanco{
+    color: $fuente_bco;
+}
+
+.fondo_blanco{
+ background-color: $fondo_blanco;
+}
+
+.espaciosup{
+    margin-top: $esp-2;
+}
+
+.espacioinf{
+    margin-bottom: $esp-2;
+}
+.espacioinfmax{
+    margin-bottom: $esp-5;
+}
+
+.espaciadosupmax{
+    margin-top: $esp-5;
+}
+
+main {
+     h2{
+         margin-top: $esp-2;
+         margin-bottom: $esp-2;
+     }
+}

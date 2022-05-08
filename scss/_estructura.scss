@@ -1,0 +1,43 @@
+$esp-1: 10px;
+$esp-2: 20px;
+$esp-3: 30px;
+$esp-4: 40px;
+$esp-5: 50px;
+
+* {
+    margin:0;
+    padding:0;
+}
+
+@mixin modelo($espacio, $fuente, $fcolor, $tamano) {
+    font-size: $fuente;
+    color: $fcolor;
+    padding: $espacio;
+    font-size: $tamano;
+}
+
+@mixin espaciado($espacio, $alto, $arriba, $abajo) {
+    padding: $espacio;
+    width: $alto;
+    margin-top: $arriba;
+    margin-bottom: $abajo;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+maint{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+footer{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+heade{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+footer{
+   /*  @include espaciado(0px, 0px, $esp-5, $esp-5); */
+   width: 500px;
+   
+}
